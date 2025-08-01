@@ -1,7 +1,7 @@
 "use client"
 
 import { contactDetails } from "@/data/cta"
-import { HiPhone, HiMail, HiLocationMarker, HiChat } from "react-icons/hi"
+import { HiPhone, HiLocationMarker, HiChat } from "react-icons/hi"
 
 const Contact: React.FC = () => {
     const handleWhatsAppClick = () => {
