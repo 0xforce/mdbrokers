@@ -22,7 +22,7 @@ export const footerDetails: {
             url: "testimonials"
         }
     ],
-    email: '',
+    email: 'Mdbrokersusa@gmail.com',
     telephone: '+1 (954) 684-8414',
     socials: {
         
