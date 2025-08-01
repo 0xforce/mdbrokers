@@ -5,7 +5,7 @@ import { HiPhone, HiMail, HiLocationMarker, HiChat } from "react-icons/hi"
 
 const Contact: React.FC = () => {
     const handleWhatsAppClick = () => {
-        const phone = contactDetails.phone.replace(/\s/g, '').replace(/[()]/g, '');
+        const phone = contactDetails.phone.replace(/\s/g, '').replace(/[()]/g, '').replace('+', '');
         const message = encodeURIComponent(contactDetails.whatsappMessage);
         const whatsappUrl = `https://wa.me/${phone}?text=${message}`;
         window.open(whatsappUrl, '_blank');
